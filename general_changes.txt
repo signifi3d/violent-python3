@@ -1,0 +1,5 @@
+Python 3 Compatibility Changes:
+    - Added parentheses to all print functions.
+    - Removed newlines from end of print statements.
+
+Changes specific to each example are outlined at top of example's file.
