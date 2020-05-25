@@ -4,7 +4,7 @@
         -- It should be noted that various encodings and error methods will work, but it must be encoded or python 3 isn't happy.
 '''
 import zipfile
-import optparse
+import argparse
 from threading import Thread
 
 
@@ -17,22 +17,17 @@ def extractFile(zFile, password):
 
 
 def main():
-    parser = optparse.OptionParser(
-        "usage%prog -f <zipfile> -d <dictionary>")
-    parser.add_option(
-        '-f', dest='zname', type='string',
-        help='specify zip file')
-    parser.add_option(
-        '-d', dest='dname', type='string',
-        help='specify dictionary file')
-    (options, args) = parser.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        '-f', dest='zname', type=str,
+        required=True, help='specify zip file')
+    parser.add_argument(
+        '-d', dest='dname', type=str, 
+        required=True, help='specify dictionary file')
+    options = parser.parse_args()
 
-    if (options.zname == None) | (options.dname == None):
-        print(parser.usage)
-        exit(0)
-    else:
-        zname = options.zname
-        dname = options.dname
+    zname = options.zname
+    dname = options.dname
 
     zFile = zipfile.ZipFile(zname)
     passFile = open(dname)
