@@ -1,5 +1,12 @@
 Python 3 Compatibility Changes:
     - Added parentheses to all print functions.
     - Removed newlines from end of print statements.
+    - Changed Exception, e to Exception as e
+
+Changes due to deprecation:
+
+PEP 8 Compatibility Changes:
+    - Committed all functions to a singular naming convention.
+    - Changed all boolean operations against None into is/is not statements.
 
 Changes specific to each example are outlined at top of example's file.

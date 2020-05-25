@@ -1,0 +1,4 @@
+These libraries are required to run all of the code from the book. I've noted where substitutions have been made from the original requirements. I have written them exactly as the package names need to be input into pip so that you get the right libraries. (eg. If you pip nmap you will get a completely different library than python-nmap and the examples that use that library won't work properly.)
+
+- python-nmap
+- pexpect

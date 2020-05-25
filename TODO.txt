@@ -1,0 +1,3 @@
+- Swap out optparse with argparse
+- Commit all functions to camel case
+- Test out functionality of chapter 2 ftp exploit scripts
