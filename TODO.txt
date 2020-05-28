@@ -1,3 +1,17 @@
 - Swap out optparse with argparse
 - Commit all functions to camel case
+- Commit all strings to either single or double quotes
 - Test out functionality of chapter 2 ftp exploit scripts
+- Test chapter 3 scripts:
+    -- exifFetch.py
+    -- listTables.py
+    -- skype-parse.py
+    -- iphoneMessages.py
+    -- dumpRecycleBin.py
+    -- printProfile.py
+    -- discoverNetworks.py
+    -- discoverNetworks2.py
+- Complete Initial Chapter 4 conversion
+- Complete Initial Chapter 5 conversion
+- Complete Initial Chapter 6 conversion
+- Complete Initial Chapter 7 conversion

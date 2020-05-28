@@ -2,3 +2,7 @@ These libraries are required to run all of the code from the book. I've noted wh
 
 - python-nmap
 - pexpect
+- mechanize
+- pypdf2
+- beautifulsoup4
+- pillow

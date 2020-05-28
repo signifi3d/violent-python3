@@ -4,9 +4,14 @@ Python 3 Compatibility Changes:
     - Changed Exception, e to Exception as e
 
 Changes due to deprecation:
+    - Replaced optparse with argparse
+    - Replaced pypdf with pypdf2
+    - Replaced PIL with pillow
+    - Changed urllib2 or urlparse libraries to corresponding urllib.* library
 
 PEP 8 Compatibility Changes:
     - Committed all functions to a singular naming convention.
     - Changed all boolean operations against None into is/is not statements.
+    - Committed all strings to double qoutes.
 
 Changes specific to each example are outlined at top of example's file.
