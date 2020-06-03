@@ -2,6 +2,7 @@ Python 3 Compatibility Changes:
     - Added parentheses to all print functions.
     - Removed newlines from end of print statements.
     - Changed Exception, e to Exception as e
+    - Turned calls to [dict].has_key([var]) into [var] in [dict]
 
 Changes due to deprecation:
     - Replaced optparse with argparse

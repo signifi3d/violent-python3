@@ -11,7 +11,12 @@
     -- printProfile.py
     -- discoverNetworks.py
     -- discoverNetworks2.py
-- Complete Initial Chapter 4 conversion
+- Test chapter 4 scripts:
+    -- findDDoS.py
+    -- spoofDetect.py
+    -- testDomainFlux.py
+    -- calculateTSN.py
+    -- tcpHijack.py
 - Complete Initial Chapter 5 conversion
 - Complete Initial Chapter 6 conversion
 - Complete Initial Chapter 7 conversion
